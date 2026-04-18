@@ -43,7 +43,6 @@ export default function Services() {
                 {service.price}
               </p>
             </div>
-            <span className="font-display italic text-xs text-brand-secondary">0{index + 1}</span>
           </li>
         ))}
       </ul>

@@ -50,6 +50,13 @@ npm run build
 ```
 The output will be in the `dist/` directory, ready to be hosted on platforms like Cloud Run, Vercel, or Netlify.
 
+## 🔴 Troubleshooting (White Page Fix)
+If you see a **white page** after deploying:
+1. **Wait 2 minutes**: GitHub Actions takes about 60-90 seconds to build the site after you export.
+2. **Enable gh-pages branch**: Go to **Settings > Pages** in your repo. Ensure "Branch" is set to `gh-pages` (NOT `main`).
+3. **Check Build Status**: Tap the **Actions** tab in GitHub. If you see a red ❌, click it to see why the build failed.
+4. **Permissions**: If the build fails with "Permissions" error, go to **Settings > Actions > General** and ensure "Workflow permissions" is set to **"Read and write permissions"**.
+
 ## 📞 Contact
 - **Instagram**: [@shotsbyi6ffn](https://instagram.com/shotsbyi6ffn)
 - **WhatsApp**: +91 99611 17006
