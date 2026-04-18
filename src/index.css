@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Georgia", serif;
+  
+  --color-brand-primary: #e5e5e5;
+  --color-brand-secondary: rgba(255, 255, 255, 0.4);
+  --color-brand-accent: #ff4e00;
+  --color-bg-primary: #0d0d0d;
+  --color-bg-secondary: #0f0f0f;
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-bg-primary text-brand-primary font-sans antialiased selection:bg-brand-accent/30 selection:text-brand-accent;
+  }
+}
+
+@layer utilities {
+  .vertical-rail {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: inline-block;
+  }
+  
+  .editorial-border {
+    @apply border border-border-subtle;
+  }
+  
+  .editorial-grid-item {
+    @apply bg-[#1a1a1a] border border-white/5;
+  }
+
+  .cinematic-gradient {
+    background: radial-gradient(circle at 50% -20%, #1a1a1a 0%, transparent 70%);
+  }
+  
+  .glass-morphism {
+    @apply bg-bg-secondary/60 backdrop-blur-xl border border-white/10;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
