@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export default function About() {
   return (
-    <section id="about" className="py-12 px-10 md:px-20 bg-bg-primary border-t border-border-subtle">
+    <section id="about" className="py-8 px-10 md:px-20 bg-bg-primary border-t border-border-subtle">
       <div className="flex flex-col lg:flex-row items-start gap-20">
         <div className="w-full lg:w-1/2">
           <span className="text-[10px] uppercase tracking-[0.3em] text-brand-secondary mb-6 block">Visionary Director</span>

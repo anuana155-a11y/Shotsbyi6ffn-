@@ -10,19 +10,15 @@ export default function Contact() {
     e.preventDefault();
     
     // Create a neat summary of the inquiry
-    const message = `Enquiry from Website:\nName: ${formData.name}\nEmail: ${formData.email}\nBrief: ${formData.message}`;
+    const subject = encodeURIComponent(`Project Inquiry - ${formData.name}`);
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nProject Brief:\n${formData.message}`);
     
-    // Copy to clipboard so the user can just paste it in the DM
-    navigator.clipboard.writeText(message).then(() => {
-      setIsCopied(true);
-      setTimeout(() => {
-        window.open('https://www.instagram.com/shotsbyi6ffn?igsh=MXM4b3hsczh1Ymp2Yw==', '_blank');
-        setIsCopied(false);
-      }, 1000);
-    }).catch(err => {
-      console.error('Could not copy text: ', err);
-      window.open('https://www.instagram.com/shotsbyi6ffn?igsh=MXM4b3hsczh1Ymp2Yw==', '_blank');
-    });
+    setIsCopied(true); // Using this for visual feedback
+    
+    setTimeout(() => {
+      window.location.href = `mailto:Irfanktmhd@gmail.com?subject=${subject}&body=${body}`;
+      setIsCopied(false);
+    }, 800);
   };
 
   return (
@@ -67,7 +63,7 @@ export default function Contact() {
           type="submit"
           className="w-full bg-white text-black font-bold uppercase tracking-[0.2em] text-[10px] py-4 rounded-none hover:bg-brand-accent hover:text-white transition-all transform active:scale-[0.98]"
         >
-          {isCopied ? "Summary Copied! Opening DM..." : "Proceed to DM"}
+          {isCopied ? "Opening Mail Client..." : "Proceed to Mail"}
         </button>
       </form>
 

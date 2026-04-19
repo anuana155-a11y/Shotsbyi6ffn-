@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <section className="relative h-[60vh] flex flex-col justify-start pt-10 lg:pt-16 p-10 lg:p-16 overflow-hidden border-b border-border-subtle bg-bg-primary">
+    <section className="relative min-h-[40vh] flex flex-col justify-start pt-8 lg:pt-12 p-8 lg:p-12 overflow-hidden border-b border-border-subtle bg-bg-primary">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-t from-bg-primary via-bg-primary/20 to-transparent z-10" />
         <video 

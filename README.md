@@ -58,5 +58,6 @@ If you see a **white page** after deploying:
 4. **Permissions**: If the build fails with "Permissions" error, go to **Settings > Actions > General** and ensure "Workflow permissions" is set to **"Read and write permissions"**.
 
 ## 📞 Contact
+- **Email**: [Irfanktmhd@gmail.com](mailto:Irfanktmhd@gmail.com)
 - **Instagram**: [@shotsbyi6ffn](https://instagram.com/shotsbyi6ffn)
 - **WhatsApp**: +91 99611 17006

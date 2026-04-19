@@ -32,7 +32,7 @@ export default function Portfolio() {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
 
   return (
-    <section id="work" className="py-12 px-6 md:px-12 bg-bg-primary">
+    <section id="work" className="py-6 px-6 md:px-12 bg-bg-primary">
       <div className="mb-10 text-center md:text-left">
         <span className="text-[10px] uppercase tracking-[0.3em] text-brand-secondary mb-4 block">Visual Projects Collective</span>
         <h2 className="font-display text-5xl md:text-8xl font-light tracking-tighter text-white uppercase italic leading-[0.9]">

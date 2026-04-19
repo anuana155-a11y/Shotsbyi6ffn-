@@ -6,25 +6,25 @@ const services = [
     title: "Wedding Videography",
     description: "Capturing the magic of your special day with a cinematic touch.",
     icon: Film,
-    price: "DM FOR QUOTE",
+    price: "MAIL FOR QUOTE",
   },
   {
     title: "Event Coverage",
     description: "Professional coverage for corporate events, concerts, and parties.",
     icon: Scissors,
-    price: "DM FOR QUOTE",
+    price: "MAIL FOR QUOTE",
   },
   {
     title: "Fashion Films",
     description: "Dynamic and visually striking content for brands and designers.",
     icon: Camera,
-    price: "DM FOR QUOTE",
+    price: "MAIL FOR QUOTE",
   },
   {
     title: "iPhone Cinematics",
     description: "High-quality content shot entirely on iPhone. #shotoniphone",
     icon: Smartphone,
-    price: "DM FOR QUOTE",
+    price: "MAIL FOR QUOTE",
   },
 ];
 
