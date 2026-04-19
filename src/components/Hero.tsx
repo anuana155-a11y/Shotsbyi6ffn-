@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[40vh] flex flex-col justify-start pt-8 lg:pt-12 p-8 lg:p-12 overflow-hidden border-b border-border-subtle bg-bg-primary">
+    <section className="relative min-h-[40vh] flex flex-col justify-start pt-8 lg:pt-12 p-6 md:p-12 lg:p-16 overflow-hidden border-b border-border-subtle bg-bg-primary">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-t from-bg-primary via-bg-primary/20 to-transparent z-10" />
         <video 
@@ -29,7 +29,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-          className="font-display text-7xl md:text-[120px] lg:text-[160px] leading-[0.85] font-light tracking-tighter text-white mb-6"
+          className="font-display text-5xl sm:text-7xl md:text-[120px] lg:text-[160px] leading-[0.85] font-light tracking-tighter text-white mb-6"
         >
           Muhammed<br />
           <span className="italic">Irfan</span>

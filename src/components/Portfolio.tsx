@@ -35,7 +35,7 @@ export default function Portfolio() {
     <section id="work" className="py-6 px-6 md:px-12 bg-bg-primary">
       <div className="mb-10 text-center md:text-left">
         <span className="text-[10px] uppercase tracking-[0.3em] text-brand-secondary mb-4 block">Visual Projects Collective</span>
-        <h2 className="font-display text-5xl md:text-8xl font-light tracking-tighter text-white uppercase italic leading-[0.9]">
+        <h2 className="font-display text-4xl sm:text-5xl md:text-8xl font-light tracking-tighter text-white uppercase italic leading-[0.9]">
           My Works
         </h2>
       </div>

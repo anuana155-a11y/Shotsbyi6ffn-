@@ -2,11 +2,11 @@ import { motion } from "motion/react";
 
 export default function About() {
   return (
-    <section id="about" className="py-8 px-10 md:px-20 bg-bg-primary border-t border-border-subtle">
+    <section id="about" className="py-8 px-6 md:px-20 bg-bg-primary border-t border-border-subtle">
       <div className="flex flex-col lg:flex-row items-start gap-20">
         <div className="w-full lg:w-1/2">
           <span className="text-[10px] uppercase tracking-[0.3em] text-brand-secondary mb-6 block">Visionary Director</span>
-          <h2 className="font-display text-5xl md:text-8xl font-light tracking-tighter text-white uppercase mb-10 leading-[0.9]">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-8xl font-light tracking-tighter text-white uppercase mb-10 leading-[0.9]">
             Behind The <br /> <span className="italic">Lens.</span>
           </h2>
           <div className="space-y-6 text-brand-primary/80 leading-relaxed text-sm font-light max-w-lg">

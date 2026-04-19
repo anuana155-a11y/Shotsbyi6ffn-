@@ -22,7 +22,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="p-8 bg-bg-secondary">
+    <section id="contact" className="p-6 md:p-8 bg-bg-secondary">
       <span className="text-[10px] uppercase tracking-[0.3em] text-brand-secondary mb-6 block">New Inquiry</span>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="space-y-1">

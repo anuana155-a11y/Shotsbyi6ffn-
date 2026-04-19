@@ -30,7 +30,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="p-8 border-b border-border-subtle">
+    <section id="services" className="p-6 md:p-8 border-b border-border-subtle">
       <span className="text-[10px] uppercase tracking-[0.3em] text-brand-secondary mb-6 block">Expertise</span>
       <ul className="space-y-0">
         {services.map((service, index) => (
